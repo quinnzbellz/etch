@@ -13,5 +13,8 @@
         </div>
     </header>
     {{- .Content -}}
+    <div>
+        {{ partial "disqus.html" . }}
+    </div>
 </article>
 {{ end }}
