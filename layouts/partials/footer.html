@@ -1,3 +1,6 @@
 <footer id="footer">
     {{ .Site.Params.copyright }}
+    <div>
+        {{ partial "disqus.html" . }}
+    </div>
 </footer>
