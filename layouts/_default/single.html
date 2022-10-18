@@ -11,6 +11,9 @@
             {{ end }}
         {{- end -}}
         </div>
+        <div>
+            {{ partial "disqus.html" . }}
+        </div>
     </header>
     {{- .Content -}}
 </article>
